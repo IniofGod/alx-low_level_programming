@@ -1,20 +1,16 @@
 #include <stdio.h>
-#include <stdlib.h>
-#include <time.h>
-
 /**
- * main - Entry point
- *
- * Return: Always 0 (Success)
+ *main - entry point
+ *Description: random number in n +ve/-ve
+ *Return: 0 on success
  */
-
 int main(void)
 {
-	char low;
-
-	for (low = 'a'; low <= 'z'; low++)
-		putchar(low);
-		putchar('\n');
-
-	return (0);
+int firstLetter, n;
+for (firstLetter = 97, n = 1; n < 27; firstLetter++, n++)
+{
+putchar(firstLetter);
+}
+putchar(10);
+return (0);
 }
