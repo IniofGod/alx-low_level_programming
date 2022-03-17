@@ -1,5 +1,5 @@
-#ifndef HOLBERTON_H
-#define HOLBERTON_H
+#ifndef MAIN_H
+#define MAIN_H
 
 int _isupper(int c);
 int _isdigit(int c);
@@ -13,4 +13,4 @@ void print_square(int size);
 void print_triangle(int size);
 int _putchar(char c);
 
-#endif[A[A[A[A[A[A[A[A[A[A[A[A[A[C[C[C[C[A[A[A[C[C[C[C[C[C[BMAIN_H[A[CMAIN_H[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[D[D[D[D[D[D[D[D
+#endif
