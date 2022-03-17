@@ -1,15 +1,15 @@
-[1;5s#include "main.h"
-
+#include "main.h"
 /**
- *mul - function that checks for a digit
- *Return: a * b on true
- *@a: parameter
- *@b: parameter
+ *mul - multiplies two ints.
+ *@a: integer.
+ *@b: integer.
+ *
+ *Return: product.
  */
-
 int mul(int a, int b)
 {
-	int res = a * b;
+	int product;
 
-	return (res);
+	product = a * b;
+	return (product);
 }
