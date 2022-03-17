@@ -1,20 +1,19 @@
-#include "main.h
-[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C"
+[1;5s#include "main.h"
+
 /**
- *_isdigit - checks for a digit.
- *@c: input.
- *
- *Return: 1 if c is a digit
- *0 otherwise.
+ *_isdigit - function that checks for a digit
+ *Return: 1 on true
+ *@c: parameter
  */
+
 int _isdigit(int c)
 {
-	if ((c >= '0') && (c <= '9'))
+	int isdigit = 0;
+
+	if (c >= 48 && c <= 57)
 	{
-		return (1);
+		isdigit = 1;
 	}
-	else
-	{
-		return (0);
-	}
+
+	return (isdigit);
 }
