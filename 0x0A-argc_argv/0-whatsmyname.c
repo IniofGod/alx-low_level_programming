@@ -2,15 +2,15 @@
  ​#​include​ ​<​stdio.h​> 
   
  ​/*​* 
- ​ * main - function 
- ​ * @argc: offset count 
- ​ * @argv: offset value 
+ ​ * main - prints program name, followed by a new line 
+ ​ * @argc: int 
+ ​ * @argv: list 
  ​ * Return: 0 
  ​ ​*/ 
   
-  
- ​int​ ​main​(​int​ argc, ​char​ *argv[]) 
+ ​int​ ​main​(​int​ argc, ​char​ ​const​ *argv[]) 
  ​{ 
- ​        ​printf​(​"​%s​\n​"​, argv[argc - ​1​]); 
- ​        ​return​ (​0​); 
+ ​(​void​)argc; 
+ ​printf​(​"​%s​\n​"​, argv[​0​]); 
+ ​return​ (​0​); 
  ​}
