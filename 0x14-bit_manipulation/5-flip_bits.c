@@ -1,3 +1,4 @@
+#include "main.h"
 /**
   * countBits - count number of bits to be flipped.
   * @x: xor of n and m.
